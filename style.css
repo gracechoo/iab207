@@ -1,0 +1,261 @@
+*{
+    font-family: 'Playfair Display';
+}
+h1 {
+    text-align: center;
+    padding-top:80px;
+    padding-bottom: 40px;
+    color:#2C8C99;
+}
+
+h2 {
+    text-align: center;
+    padding-top:32px;
+    padding-bottom: 28px;
+    font-size:18px;
+}
+
+a{
+    color:#38B2C2;
+}
+
+a:hover{
+    opacity: 0.5;
+}
+
+btn{
+    color:#36ABBA;
+}
+
+btn:hover{
+    opacity: 0.7;
+}
+
+p{
+    font-family: 'Montserrat'
+}
+nav{
+    background-color: linear-gradient(33deg, rgba(255,255,255,1) 0%, rgba(203,222,232,1) 100%);
+}
+
+
+
+.home-logo{
+    text-align: center;
+    padding:15px;
+}
+.home-search-bar {
+    padding:15px;
+    text-align: center;
+}
+.search-button-style{
+    background-color: #4CCFC6;
+    color: #ffffff;
+    border:none;
+    
+}
+.icon-img {
+    padding:15px;
+    text-align: center;
+}
+.home-carousel {
+    padding-left: 90px;
+    padding-right: 90px;
+    
+}
+.popular-record-see-more{
+    text-align: center;
+    padding:20px;
+    font-size: 1.5em;
+}
+
+.popular-record {
+    padding-left: 90px;
+    padding-top:30px;
+    padding-right: 90px;
+}
+
+.home-about-us{
+    font-size:1em;
+    padding:0px 60px 20px 60px;
+}
+
+
+
+
+
+/*  - - - - - - - - - - - - - - - - - - - - -     D E T A I L S - - - - */
+
+/*  - - - - v i e w    r e c o r d - - - - */
+
+.view-record{
+    padding:40px 70px 0px 70px;
+}
+.year-released {
+    text-align: center;
+    padding:5px;
+}
+
+.record-caption {
+    text-align: center;
+    text-transform: capitalize;
+    padding-top:10px;
+}
+
+
+
+/*  - - - - y o u r   b i d - - - - */
+
+.bid-on-record {
+    text-align: center;
+    padding-top:130px;
+    font-size: 1.5em;
+}
+
+.form-group label {
+    padding-bottom: 20px;
+}
+
+.form-group button {
+    margin-top: 20px;
+}
+
+
+
+/*  - - - - p r e v i o u s   b i d s - - - - */
+
+.submitted-bids{
+    padding-top:0px;
+    margin-top: 4%;
+    margin-left:3%;
+    margin-right:3%;
+    }
+
+
+p .top-price, .top-bidder, .top-date, .top-time, .other-price, .other-bidder, .other-date, .other-time {
+    text-align: center;
+    line-height: 1px;
+    
+}
+
+.top-price {
+    padding: 50px 0px 20px 0px;
+    font-size 0.8em;
+} 
+
+.top-bidder{
+    padding: 0px;
+    font-size:1.2em;
+    font-weight: 600;
+    
+}
+
+.top-time{
+    font-size:1em;
+    font-weight: 400;
+    padding-top:20px;
+    padding-bottom:0px;
+}
+
+.other-price{
+    font-size:1.1em;
+    font-weight: 400;
+    padding-top:50px;
+    padding-bottom: 10px;
+    
+} 
+
+.other-bidder {
+    
+    padding-top:10px;
+    padding-bottom:0px;
+    font-weight: 600;
+}
+
+.other-date {
+    
+    padding-top:0px;
+    padding-bottom:0px;
+} 
+
+.other-time {
+    font-size: 0.7em;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom:0px;
+}
+
+.detail-record-see-more{
+    text-align: center;
+    font-size: 1em;
+}
+
+
+.more-record-details{
+    padding:60px
+}
+
+.custom-control-label, .custom-range-pad, .custom-range, .form-group, .record-title, .record-artist
+
+{
+    margin-bottom:30px;
+    margin-left:20px;
+}
+.form-det-text{
+    height:100px;
+}
+
+.song-no{
+    margin-bottom:30px;
+}
+.profile-upload{
+    text-align: center;
+    border-color:black;
+    width: 100%;
+    padding:20%;
+}
+
+.rec-price-title{
+    text-align: center;
+    font-size:18px;
+    padding-top:40px;
+}
+
+.rec-price{
+    text-align: center;
+    font-size:26px;
+    padding-top:30px;
+    color:blue;
+}
+
+.submit-update-form {
+    margin-bottom: 100px;
+}
+
+.W-days, .W-date, .W-highest-bid, .W-year, .W-artist, .W-title {
+    text-align: center;
+}
+
+
+.record-in-watchlist{
+    padding-left: 150px;
+    padding-top:30px;
+    padding-right: 150px;
+}
+
+.W-highest-bid{
+    font-size:2em;
+    text-align: center;
+}
+
+.W-days{
+    color:red;
+}
+
+.W-title {
+    font-size:2em;
+}
+.W-artist {
+    font-size:1em;
+    text-transform: uppercase;
+}

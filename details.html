@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+      
+    <link rel="stylesheet" href="style.css">
+      
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+
+
+    <title>Record Auction</title>
+  </head>
+    
+  <body>
+    <header>
+      <!-- Image and text -->
+        <nav class="navbar sticky-top navbar-light bg-light">
+            
+                <a class="home-logo navbar-brand  col-sm-2 col-12" href="index.html">
+                    <img src="images/record-logo.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+                    Company Name
+                </a>
+            
+                <form class="form-inline col-sm-6 col-12 home-search-bar">
+                    <input class="form-control col-10" type="search" placeholder="Search" aria-label="Search">
+                    <button class="search-button-style btn btn-outline-success col-2" type="submit">Go!</button>
+                </form>
+            
+            
+                  <a class="icon-img col-sm-1 col-4" href="Update_Create_Item.html">
+                    <img src="images/add-new-icon.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+                </a>
+            
+                <a class="icon-img col-sm-1 col-4" href="#">
+                    <img src="images/profile-icon.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+                </a>
+                
+                <a class="icon-img col-sm-1 col-4" href="watchlist.html">
+                    <img src="images/watchlist-icon.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+                </a>
+          
+        </nav>
+        
+      </header>
+      
+    <main>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Current Record Name</li>
+      </ol>
+    </nav>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    
+        <div class = "row">
+            
+            <div class="view-record col-lg-5 col-md-6 col-sm-12">
+                <img src="images/record2.jpg" class="record-img d-block w-100" alt="Record">
+                <h3 class="record-caption">Record Name by Band</h3>
+                <p class="year-released">2020</p>
+            </div>
+            
+            <div class="bid-on-record col-lg-3 col-md-6 col-sm- col-12">
+                <div class="col-lg-9 col-12 form-group">
+                    <label for="formGroupExampleInput">Your Price</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="$">
+                    <button type="button" class="btn btn-info btn-block">Send Bid!</button>
+                  </div>
+            </div>
+                
+            <div class="card submitted-bids col-lg-3">
+                <h1 class="top-price">$46.00</h1>
+                <h4 class="top-bidder">Jane Doe</h4>
+                <h4 class="top-time">4.30 pm Today</h4>
+                
+                <h2 class="other-price">$42.00</h2>
+                <p class="other-bidder">John Doe</p>
+                <p class="other-time">3.54 pm  Today</p>
+              
+                <a class="details-record-see-more col-12" href="index.html">See More</a>
+                
+            </div>
+            
+        </div>
+        
+        <div class="row">
+            <div class="more-record-details">
+                
+                <p>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#det-contents" aria-expanded="false" aria-controls="collapseExample">
+                    Contents
+                  </button>
+                    
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#det-songs" aria-expanded="false" aria-controls="collapseExample">
+                    Song List
+                  </button>
+                    
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#det-seller" aria-expanded="false" aria-controls="collapseExample">
+                    Seller Details
+                  </button>
+                    
+                    
+                </p>
+                
+                <div class="collapse" id="det-contents">
+                  <div class="card card-body">
+                    CONTENTS Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                  </div>
+                    
+                <div class="collapse" id="det-songs">
+                  <div class="card card-body">
+                    SONGS Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                  </div>
+                    
+                <div class="collapse" id="det-seler">
+                  <div class="card card-body">
+                    SELLER Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                  </div>
+                </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+            
+        </div>
+    </main>
+    <footer>
+      </footer>
+  </body>
+</html>
