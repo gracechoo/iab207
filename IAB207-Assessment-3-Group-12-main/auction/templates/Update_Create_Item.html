@@ -1,0 +1,122 @@
+{% extends 'base.html' %}
+
+{% block header %}
+<main>
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="/">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">New Record or Update Record</li>
+    </ol>
+  </nav>
+  <h1>Please fill in the details for your record.</h1>
+{% endblock %}
+
+{% block content %}
+  <div class="row">
+      
+      <div class="update-record-details col-lg-4 col-12">
+          <h2>Record Details</h2>
+
+            <!-- RECORD TITLE-->
+            <input type="text" class="record-title form-control" id="formGroupExampleInput" placeholder="Record Title">
+            
+            <!-- RECORD ARTIST-->
+            <input type="text" class="record-artist form-control" id="formGroupExampleInput" placeholder="Record Artist">
+            
+            <!-- RECORD GENRE-->
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Genre</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option>Pop</option>
+                    <option>Indie</option>
+                    <option>Jazz</option>
+                    <option>Country</option>
+                    <option>Hip-Hop</option>
+                    <option>RnB</option>option>
+                    <option>Rap</option>
+                    <option>Electronic</option>
+                    <option>Folk</option>
+                    <option>Classical</option>
+                    <option>Film Score</option>
+                </select>
+              </div>
+
+            <!-- RECORD YEAR-->
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Year</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option>2001</option>
+                    <option>2002</option>
+                    <option>2003</option>
+                    <option>2004</option>
+                    <option>2005</option>
+                    <option>2006</option>
+                    <option>2007</option>
+                    <option>2008</option>
+                    <option>2009</option>
+                    <option>2010</option>
+                    <option>2011</option>
+                    <option>2012</option>
+                    <option>2013</option>
+                    <option>2014</option>
+                    <option>2015</option>
+                    <option>2016</option>
+                    <option>2017</option>
+                    <option>2018</option>
+                    <option>2019</option>
+                    <option>2020</option>
+                    <option>etc</option>
+                    
+                </select>
+              </div>
+
+            <!-- RECORD TIME -->
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck1">
+              <label class="custom-control-label" for="customCheck1">Custom TimeFrame?</label>
+            </div>
+            
+            <label for="customRange3"class="custom-range-pad">Time Frame</label>
+            <input type="range" class="custom-range" min="0" max="100" step="10" id="customRange3">
+            
+            <!-- RECORD TITLE-->
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Example textarea</label>
+                <textarea class="form-det-text form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            
+        </div>
+
+        <div class="update-record-songs col-lg-4 col-12">
+            <h2>Song List</h2>
+                <input type="text" class="song-no form-control" id="formGroupExampleInput" placeholder="1">
+                <input type="text" class="song-no form-control" id="formGroupExampleInput" placeholder="2">
+                <input type="text" class="song-no form-control" id="formGroupExampleInput" placeholder="3">
+                <input type="text" class="song-no form-control" id="formGroupExampleInput" placeholder="4">
+                <input type="text" class="song-no form-control" id="formGroupExampleInput" placeholder="5">
+                <input type="text" class="song-no form-control" id="formGroupExampleInput" placeholder="6">
+                <input type="text" class="song-no form-control" id="formGroupExampleInput" placeholder="7">
+                <input type="text" class="song-no form-control" id="formGroupExampleInput" placeholder="8">
+                <input type="text" class="song-no form-control" id="formGroupExampleInput" placeholder="9">
+                <input type="text" class="song-no form-control" id="formGroupExampleInput" placeholder="10">
+                <button type="button" class="submit-update-form btn btn-info btn-block">Upload Record</button>
+        </div>
+        
+        <div class="price-profile col-lg-3 col-12">
+            <img class="profile-upload" src ="static/images/upload.png" alt="upload"/>
+            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+            <h2>Your Price</h2>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="$">
+            <h3 class="rec-price-title">Recommended Price:</h3>
+            <h4 class="rec-price">$30.00</h4>
+        </div>
+      
+  </div>   
+  
+{% endblock %}
+  
+  </main>
+  <footer>
+    </footer>
+</body>
+</html>
